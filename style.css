@@ -1,11 +1,31 @@
 main {
   background-image: url(https://s.pngkit.com/png/small/2-27883_christmas-lights-scrapbook-clip-art-christmas-cut-outs.png);
+  min-height: 100vh;
+  min-width: 100vw;
 }
 
 .image_styles {
   /* background-color: gray; */
   /* border-radius: 50%; */
   /* border: 15px; */
-  margin: 30px;
+  margin: 15px 15px;
   box-shadow: 1 blue hello;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 35vw;
+  height: 20vh;
+}
+
+.main_horiz_center {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 15vh;
+  height: 15vh;
 }
