@@ -3,26 +3,29 @@ main {
   min-height: 100vh;
   min-width: 100vw;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 div {
-  background-color: rgba(13, 2, 54, 0.85);
-  margin: 2% 2%;
+  margin: 1% 1%;
   border-radius: 10%;
 }
 
 section {
-  width: 48%;
-  height: 0vh;
+  /* width: 48%; */
+  width: 30%;
   display: flex;
   flex-flow: row wrap;
-  margin-top: 15vh;
+  justify-content: center;
 }
 
 img {
-  width: 14vw;
-  height: 20vh;
+  /* width: 14vw; */
+  /* height: 20vh; */
+  width: 8vw;
+  height: 10vw;
 }
 
 @media only screen and (width > 992px) {
